@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="aurthor" content="Omobolaji Anuoluwapo" />
+		<meta name="keywords" content="" />
+		<meta
+			name="description"
+			content="this is a game played by two players, where each player has to roll a dice as many times as possible and hold the cummulative score when he's got a total of 100 points, note that the points will start from zero if a one is rolled."
+		/>
+		<title>Pig Game</title>
+		<link rel="stylesheet" href="pigGame.css" />
+	</head>
+	<body>
+		<div class="input field">
+			<input
+				type="text"
+				name="score"
+				id="score"
+				placeholder="Enter your winning point:"
+			/>
+			<!-- <button type="submit">SUBMIT</button> -->
+		</div>
+		<div class="wrapper clearfix">
+			<div class="player-0-panel active">
+				<div class="flex-start">
+					<div class="player-name" id="name-0">Player 1</div>
+					<div class="player-score" id="score-0">43</div>
+				</div>
+				<div class="flex-end">
+					<div class="player-current-label">Current</div>
+					<div class="player-current-score" id="current-0">0</div>
+				</div>
+			</div>
+
+			<div class="player-1-panel">
+				<div class="flex-start">
+					<div class="player-name" id="name-1">Player 2</div>
+					<div class="player-score" id="score-1">72</div>
+				</div>
+				<div class="flex-end">
+					<div class="player-current-label">Current</div>
+					<div class="player-current-score" id="current-1">0</div>
+				</div>
+			</div>
+
+			<button class="btn-new">New game</button>
+			<button class="btn-roll">Roll dice</button>
+			<button class="btn-hold">Hold</button>
+
+			<img class="imgg" src="./images 5.jpeg" alt="second dice " />
+			<img class="img" src="./images 6.jpeg" alt="first dice" />
+			<!-- <img class="img" src="./images 6.jpeg" alt="" /> -->
+			<script src="pigGame.js"></script>
+		</div>
+	</body>
+</html>
